@@ -1,0 +1,76 @@
+
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: rgb(199, 191, 178);
+    /* padding: 10px 0; */
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+.container {
+    padding: 10px;
+    margin: 10px auto;
+}
+input[type=text],input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit], input[type=button]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-style-3 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-top: 75px;
+    padding: 20px;
+  }
+
+.todo {
+    /* padding: 10px 40px; */
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.cell {
+    padding: 10px;
+    width: 33.333%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+}
+.logoCell{
+    padding: 10px 0 0 8px;
+    margin: 4px 0 0px 0px;
+}

@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    /* padding: 10px 0; */
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+body {
+    background-color: #eee;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.wrapper {
+    display: flex;
+    width: 70%;
+    background-color: white;
+    /* margin-top: 75px; */
+    margin: 75px auto;
+    border: 5px solid rgba(31, 37, 44, 0.76);
+}
+
+.left-side {
+    width: 50%;
+    padding: 10px 0;
+    border-right: 2px solid rgba(31, 37, 44, 0.76);
+}
+
+.right-side {
+    flex-grow: 1;
+    padding: 10px 5px;
+}
+
+.todo {
+    /* padding: 10px 40px; */
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.cell {
+    padding: 10px;
+    width: 33.333%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+}
+.logoCell{
+    padding: 10px 0 0 8px;
+    margin: 4px 0 0px 0px;
+}
+    
